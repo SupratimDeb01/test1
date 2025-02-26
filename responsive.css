@@ -1,0 +1,146 @@
+/* On smaller screens, switch to 3 columns (two rows total) */
+@media (min-width:993px){
+  .floating-navbar{
+    display: none;
+  }
+}
+/* @media (max-width:992px){
+  .signature img{
+    width: 20vh;
+  }
+  header{
+    display: none !important;
+  }
+  section.home{
+    padding: 0rem 4rem 4rem 4rem;
+  }
+} */
+@media (max-width: 992px) {
+  header{
+    display: none !important;
+  }
+  section.home{
+    padding: 3rem 4rem 4rem 4rem;
+  }
+  .toogle{
+    margin-left: auto;
+  }
+  .signature {
+    justify-content: center;
+  }
+  .profile{
+    padding: 3rem 0rem 0rem 0rem;
+  }
+  .home-content h1{
+    font-size: 4rem;
+  }
+  .home-content h3{
+    font-size: 4rem;
+  }
+  .home-img{
+    width: 230px;
+    height: 350px;
+  }
+  .logos {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4%;
+  }
+  .logos i{
+    width: 80px;
+    height: 105px;
+    font-size: 4.5rem;
+}
+
+}
+
+@media (max-width: 768px) {
+ header{
+  display: none !important;
+ }
+  section.home{
+    padding: 0rem 4rem 4rem 4rem;
+  }
+  .signature img{
+    width: 20vh;
+  }
+  .home-img{
+    width: 230px;
+    height: 320px;
+  }
+  .home-content h1{
+    font-size: 3rem;
+  }
+  .home-content h3{
+    font-size: 3.5rem;
+  }
+  .logos i{
+    width: 70px;
+    height: 95px;
+    font-size: 4rem;
+}
+.skills-heading h3{
+  font-size: 2.7rem;
+}
+.skills-heading h5{
+  font-size: 1rem;
+}
+.logos h3{
+  font-size: 1.3rem;
+}
+.logos h5{
+  font-size: 1rem;
+}
+.qua-top h3{
+  font-size: 2.7rem;
+}
+.qua-top h5{
+  font-size: 1rem;
+}
+.cont-top h3{
+  font-size: 2.7rem;
+  padding-bottom: 0.2rem;
+}
+.cont-top h5{
+  font-size: 1rem;
+}
+.reachout h3{
+  font-size: 1.2rem;
+}
+.info h5{
+  font-size: 1.3rem;
+}
+.info h3{
+  font-size: 1.1rem;
+}
+.foot-sign img{
+  width: 20vh;
+}
+.reachout i{
+  font-size: 1.5rem;
+}
+}
+@media(max-width:600px){
+  header{
+    display: none !important;
+  }
+  section.home{
+    flex-direction: column;
+  }
+  .home-content h3{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    font-weight: 1000;
+}
+.educationcertification{
+  flex-direction: column;
+}
+.certification{
+  padding-top: 3rem;
+}
+.info{
+  gap: 5%;
+}
+}
+  
