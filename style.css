@@ -66,7 +66,7 @@ nav{
 nav a {
     font-size: 1.5rem;
     color: #4e4c50;
-    margin-left: 4rem;
+    margin-left: 2rem;
     font-weight: 500;
     border-bottom: 3px solid transparent;
     transition: transform 0.3s ease;
@@ -102,7 +102,7 @@ hr{
     margin: 0 auto;
 }
 .home-content h3{
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 3rem;
     font-weight: 1000;
 }
@@ -117,12 +117,12 @@ hr{
     flex-direction: column;
     align-items: center;
     /* text-align: center; */
-    margin-top: 20px; /* Adjust spacing */
+    /* margin-top: 1px;  */
 }
 .home-img {
     position: relative;
-    width: 280px; /* Adjust width */
-    height: 400px; /* Adjust height */
+    width: 250px; /* Adjust width */
+    height: 370px; /* Adjust height */
     background: linear-gradient(to bottom, #ffffff, #c2dbf7); /* Gradient background */
     border-radius: 60% / 50%; /* Creates an oval but slightly stretched */
     border: 3px solid #888; /* Border color */
