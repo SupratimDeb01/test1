@@ -1,13 +1,10 @@
 /* On smaller screens, switch to 3 columns (two rows total) */
-@media (min-width:769px){
+@media(min-width:769px){
   .floating-navbar{
-    display: none;
+    display: none !important;
   }
 }
 @media (max-width: 992px) {
-  /* header{
-    display: none !important;
-  } */
 
   section.home{
     padding: 3rem 4rem 4rem 4rem;
@@ -15,11 +12,11 @@
   .toogle{
     margin-left: auto;
   }
-  .signature {
-    justify-content: center;
+  .signature  img{
+    width: 20vw;
   }
   .profile{
-    padding: 3rem 0rem 0rem 0rem;
+    margin: 7rem 0rem 0rem 0rem;
   }
   .home-content h1{
     font-size: 4rem;
@@ -42,7 +39,31 @@
     height: 105px;
     font-size: 4.5rem;
 }
-
+.skills-heading h3{
+  font-size: 3rem;
+}
+.skills-heading h5{
+  font-size: 1.3rem;
+}
+.logos h3{
+  font-size: 1.5rem;
+}
+.logos h5{
+  font-size: 1.2rem;
+}
+.qua-top h3{
+  font-size: 3rem;
+}
+.qua-top h5{
+  font-size: 1.3rem;
+}
+.cont-top h3{
+  font-size: 3rem;
+  padding-bottom: 0.2rem;
+}
+.cont-top h5{
+  font-size: 1.3rem;
+}
 }
 
 @media (max-width: 768px) {
