@@ -58,7 +58,7 @@ nav{
     margin-left: 2rem;
 }
 .toogle i{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 /* .signature:hover{
     transform: scale(1.1);
@@ -83,7 +83,7 @@ nav a.active {
 section.home{
     min-height: auto;
     width: 100vw;
-    padding: 3rem 5rem 3rem 5rem;
+    padding: 0rem 5rem 3rem 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
