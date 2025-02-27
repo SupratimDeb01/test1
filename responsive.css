@@ -1,24 +1,14 @@
 /* On smaller screens, switch to 3 columns (two rows total) */
-@media (min-width:993px){
+@media (min-width:769px){
   .floating-navbar{
     display: none;
   }
 }
-/* @media (max-width:992px){
-  .signature img{
-    width: 20vh;
-  }
-  header{
-    display: none !important;
-  }
-  section.home{
-    padding: 0rem 4rem 4rem 4rem;
-  }
-} */
 @media (max-width: 992px) {
-  header{
+  /* header{
     display: none !important;
-  }
+  } */
+
   section.home{
     padding: 3rem 4rem 4rem 4rem;
   }
